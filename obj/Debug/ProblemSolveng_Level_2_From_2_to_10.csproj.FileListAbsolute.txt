@@ -5,3 +5,10 @@ C:\Users\97252\Desktop\programming\Problem Solving Level_2\ProblemSolveng_Level_
 C:\Users\97252\Desktop\programming\Problem Solving Level_2\ProblemSolveng_Level_2_From_2_to_10\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.csproj.CoreCompileInputs.cache
 C:\Users\97252\Desktop\programming\Problem Solving Level_2\ProblemSolveng_Level_2_From_2_to_10\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.exe
 C:\Users\97252\Desktop\programming\Problem Solving Level_2\ProblemSolveng_Level_2_From_2_to_10\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.pdb
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.csproj.AssemblyReference.cache
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.exe
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\obj\Debug\ProblemSolveng_Level_2_From_2_to_10.pdb
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\bin\Debug\ProblemSolveng_Level_2_From_2_to_10.exe.config
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\bin\Debug\ProblemSolveng_Level_2_From_2_to_10.exe
+C:\Users\Mahmoud\Desktop\Programming\ProbleSolveng\ProblemSolvingLevel2\bin\Debug\ProblemSolveng_Level_2_From_2_to_10.pdb

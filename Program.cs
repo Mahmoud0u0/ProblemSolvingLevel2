@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
-using System.Net.Security;
+
+
 
 
 namespace ProblemSolveng_Level_2_From_2_to_10
@@ -23,6 +23,9 @@ namespace ProblemSolveng_Level_2_From_2_to_10
         }
 
 
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////// Problem Solving From 1 to 10 //////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
         /// Problem 2
@@ -217,10 +220,220 @@ namespace ProblemSolveng_Level_2_From_2_to_10
 
 
 
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////// Problem Solving From 11 to 20 //////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        static bool isBalindromeNumber(int number)
+        {
+            if (number == ReadNumberAndPrintedReversed(number))
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        static void PrintIsBalindromeNumberOrNot(int number)
+        {
+            if (isBalindromeNumber(number))
+            {
+
+                Console.WriteLine("Yes, it is a Palindrome Number.");
+            }
+            else
+            {
+
+                Console.WriteLine("No, it is Not Palindrome Number.");
+            }
+        }
+
+        static void PrintInvertedPatternAsFollows(int number)
+        {
+            //int num = number;
+
+            //for (int i = 0; i < number; i++) {
+
+            //    for (int j = 0; j < num; j++) {
+
+            //        Console.Write(num);
+            //    }
+
+            //    num--;
+            //    Console.WriteLine();
+            //}
+
+
+            for (int i = number; i >= 1; i--)
+            {
+
+                for (int j = 0; j < i; j++)
+                {
+
+                    Console.Write(i);
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        static void PrintNumberPattern(int number)
+        {
+            for(int i = 1; i <= number; i++)
+            {
+                for(int j = 0; j < i; j++)
+                {
+                    Console.Write(i);
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        static void PrintInvertedLetterPattern(int number)
+        {
+            for (int i = number; i >= 1; i--)
+            {
+
+                for (int j = 0; j < i; j++)
+                {
+
+                    Console.Write(Convert.ToChar(i + 64));
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        static void PrintLetterPattern(int number)
+        {
+            for (int i = 1; i <= number; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(Convert.ToChar(i + 64));
+                }
+
+                Console.WriteLine();
+            }
+        }
+
+        static void PrintFromAAAToZZZ()
+        {
+            string letters = "";
+
+            for(int i = 65; i < 91; i++)
+            {
+                for (int j = 65; j < 91; j++)
+                {
+                    for (int a = 65; a < 91; a++)
+                    {
+                        letters += Convert.ToString(Convert.ToChar(i));
+                        letters += Convert.ToString(Convert.ToChar(j));
+                        letters += Convert.ToString(Convert.ToChar(a));
+                        Console.WriteLine(letters);
+                        letters = "";
+                    }
+                }
+            }
+        }
+
+        static string guess3LetterPassword(string password)
+        {
+            string letters = "";
+
+            for (int i = 65; i < 91; i++)
+            {
+                for (int j = 65; j < 91; j++)
+                {
+                    for (int a = 65; a < 91; a++)
+                    {
+                        letters += Convert.ToString(Convert.ToChar(i));
+                        letters += Convert.ToString(Convert.ToChar(j));
+                        letters += Convert.ToString(Convert.ToChar(a));
+                        Console.WriteLine($"Trial [{a - 64}]: {letters}");
+
+                        if(password == letters)
+                        {
+                            Console.WriteLine($"\n\nPassword is {letters}");
+                            Console.WriteLine($"Found after {a - 64} Trial(s)");
+                            return letters;
+                        }
+
+                        letters = "";
+                    }
+                }
+            }
+
+            return letters;
+        }
+
+        static string encryptString(string str)
+        {
+            string encrypt = "";
+
+            for (int i = 0; i < str.Length; i++)
+            {
+
+                encrypt += Convert.ToChar(str[i] + 2);
+            }
+
+            return encrypt;
+        }
+
+        static string decryptString(string str)
+        {
+            string decrypt = "";
+
+            for (int i = 0; i < str.Length; i++)
+            {
+
+                decrypt += Convert.ToChar(str[i] - 2);
+            }
+
+            return decrypt;
+        }
+
+
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////// Problem Solving From 21 to 30 //////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////// Problem Solving From 31 to 40 //////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         static void Main(string[] args)
         {
 
-            /// <summary>
+
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ///////////////////////////////////// Problem Solving From 1 to 10 //////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
             /// //////////////////////// Prime Numbers From 1 to N/////////////////
 
             //PrintPeimeNumbersFrom1ToN(ReadPositiveNumber("Enter Number: "));
@@ -263,6 +476,75 @@ namespace ProblemSolveng_Level_2_From_2_to_10
 
 
 
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ///////////////////////////////////// Problem Solving From 11 to 20 //////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+            //PrintIsBalindromeNumberOrNot(ReadPositiveNumber("Enter Number: "));
+
+            //PrintInvertedPatternAsFollows(ReadPositiveNumber("Enter Number: "));
+
+            //PrintNumberPattern(ReadPositiveNumber("Enter Number: "));
+
+            //PrintInvertedLetterPattern(ReadPositiveNumber("Enter Number: "));
+
+            //PrintLetterPattern(ReadPositiveNumber("Enter Number: "));
+
+            //PrintFromAAAToZZZ();
+
+            //guess3LetterPassword("AAA");
+
+            //string a = "Mohammed";
+            //Console.WriteLine(a);
+            //a = encryptString(a);
+            //Console.WriteLine(a);
+            //a = decryptString(a);
+            //Console.WriteLine(a);
+
+            //for (int i = 0; i < 25; i++)
+            //{
+
+                //Console.WriteLine(clsRandom.RandomNumbers(1, 35));
+
+
+
+                //Console.WriteLine(clsRandom.GetRandomCharacter(clsRandom.enRandomChar.SmallLetter));
+                //Console.WriteLine(clsRandom.GetRandomCharacter(clsRandom.enRandomChar.CapitalLetter));
+                //Console.WriteLine(clsRandom.GetRandomCharacter(clsRandom.enRandomChar.SpecialCharacter));
+                //Console.WriteLine(clsRandom.GetRandomCharacter(clsRandom.enRandomChar.Digit));
+                //Console.WriteLine();
+                //Console.WriteLine();
+                //Console.WriteLine();
+            //}
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ///////////////////////////////////// Problem Solving From 21 to 30 //////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            ///////////////////////////////////// Problem Solving From 31 to 40 //////////////////////////////////////////////
+            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             Console.ReadKey();
         }

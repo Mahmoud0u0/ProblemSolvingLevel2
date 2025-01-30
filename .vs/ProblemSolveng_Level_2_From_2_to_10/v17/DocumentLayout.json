@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\97252\\Desktop\\programming\\Problem Solving Level_2\\ProblemSolveng_Level_2_From_2_to_10\\",
+  "WorkspaceRootPath": "C:\\Users\\Mahmoud\\Desktop\\Programming\\ProbleSolveng\\ProblemSolvingLevel2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAB78E6A-6A13-4273-B577-1DE029090A64}|ProblemSolveng_Level_2_From_2_to_10.csproj|c:\\users\\97252\\desktop\\programming\\problem solving level_2\\problemsolveng_level_2_from_2_to_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAB78E6A-6A13-4273-B577-1DE029090A64}|ProblemSolveng_Level_2_From_2_to_10.csproj|c:\\users\\mahmoud\\desktop\\programming\\problesolveng\\problemsolvinglevel2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB78E6A-6A13-4273-B577-1DE029090A64}|ProblemSolveng_Level_2_From_2_to_10.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB78E6A-6A13-4273-B577-1DE029090A64}|ProblemSolveng_Level_2_From_2_to_10.csproj|c:\\users\\mahmoud\\desktop\\programming\\problesolveng\\problemsolvinglevel2\\clsrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB78E6A-6A13-4273-B577-1DE029090A64}|ProblemSolveng_Level_2_From_2_to_10.csproj|solutionrelative:clsrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsRandom.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\Desktop\\Programming\\ProbleSolveng\\ProblemSolvingLevel2\\clsRandom.cs",
+              "RelativeDocumentMoniker": "clsRandom.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\Desktop\\Programming\\ProbleSolveng\\ProblemSolvingLevel2\\clsRandom.cs",
+              "RelativeToolTip": "clsRandom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T01:38:49.877Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\97252\\Desktop\\programming\\Problem Solving Level_2\\ProblemSolveng_Level_2_From_2_to_10\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\Desktop\\Programming\\ProbleSolveng\\ProblemSolvingLevel2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\97252\\Desktop\\programming\\Problem Solving Level_2\\ProblemSolveng_Level_2_From_2_to_10\\Program.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\Desktop\\Programming\\ProbleSolveng\\ProblemSolvingLevel2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAA0wAUBAAAOAAAAAAAAAA==",
+              "ViewState": "AQIAAPEBAAAAAAAAAAAAwPgBAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T09:10:51.603Z",
               "EditorCaption": ""
